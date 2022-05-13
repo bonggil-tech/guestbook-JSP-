@@ -1,0 +1,105 @@
+@charset 'utf-8';
+/* 글양식 스타일 */
+.view_tit{
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+}
+span{
+    margin: auto;
+}
+.view_tit h1{
+    width: 90%;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+}
+.view_num{
+    font-size: 1.5em;
+    margin: auto 50px;
+}
+.sub_tit{
+    flex-flow: column;
+}
+.view{
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 3px solid #ACBFC5;
+}
+.view_title{
+    padding: 40px 0;
+    width: 100%;
+    text-align: center;
+}
+.view_txt{
+    width: 100%;
+    min-height: 500px;
+}
+.view_txt span{
+    padding: 40px;
+}
+.delete_box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #fff;
+    height: 30px;
+    border: 3px solid #ACBFC4;
+    box-sizing: content-box;
+}
+.delete_txt{
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    right: 8%;
+    top: 20%;
+}
+.write_save{
+    position: absolute;
+    right: 2%;
+    bottom: 23%;
+    font-weight: 700;
+    width: 40px;
+    height: 40px;
+}
+/* 글작성 스타일 */
+textarea{
+    width: 80%;
+    margin: 0 10%;
+    resize: none;
+}
+.delete_save{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    float: right;
+}
+#guestPass{
+    height: 50%;
+    margin: 10px;
+}
+.delete_save label{
+    margin-left: 75%;
+    height: 40px;
+    right: 0;
+}
+.btn_save{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5%;
+    border: 2px solid #001D6E;
+    float: right;
+    background-color: #ACBFC5;
+}
+@media(max-width:900px){
+	.delete_save label{
+	    margin-left: 0%;
+	}
+	.delete_save{
+		justify-content: center;
+	}
+}

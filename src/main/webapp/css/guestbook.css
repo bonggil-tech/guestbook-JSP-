@@ -1,0 +1,17 @@
+/* ³»¿ë */
+.content{
+    display: flex;
+}
+.content>span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+.content>span:hover {
+    background-color: #ACBFC5;
+    font-weight: 700;
+}
+.content .num:hover{
+    font-weight: 400;
+}
