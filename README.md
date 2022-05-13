@@ -5,4 +5,4 @@
 
 [방명록 바로가기](http://igh05001.cafe24.com/guestbook.jsp)
 <br>
-[![게시판이미지](https://github.com/bonggil-tech/Paik/blob/main/images/main-banner01.jpg)](http://igh05001.cafe24.com/guestbook.jsp)
+[![게시판이미지](https://github.com/bonggil-tech/guestbook-JSP-/blob/main/guestbook.png)](http://igh05001.cafe24.com/guestbook.jsp)
