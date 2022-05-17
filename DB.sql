@@ -10,3 +10,4 @@ CREATE TABLE IF NOT EXISTS  `guestbook`.`guestbook` (
   `guestFlag` TINYINT NULL DEFAULT NULL,
   `guestPass` VARCHAR(40) NULL DEFAULT NULL,
   PRIMARY KEY (`guestNum`));
+  -- 그외내용은 공개불가
