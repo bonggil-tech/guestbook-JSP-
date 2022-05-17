@@ -22,7 +22,7 @@ public class GuestDAO {
 		try {
 			String dbURL = "jdbc:mysql://localhost/igh05001";
 			String dbID = "igh05001";
-			String dbPwd = "portfolio01";
+			String dbPwd = 히히 비밀
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(dbURL,dbID,dbPwd);
 		}catch (Exception e) {
